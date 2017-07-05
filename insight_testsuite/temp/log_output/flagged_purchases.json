@@ -1,0 +1,6 @@
+{"event_type":"purchase", "timestamp":"2017-06-13 11:33:02", "id": "2", "amount": "1601.83", "mean": "25.72", "sd": "19.83"}
+
+{"event_type":"purchase", "timestamp":"2017-06-13 11:33:04", "id": "2", "amount": "191.83", "mean": "34.94", "sd": "28.34"}
+
+{"event_type":"purchase", "timestamp":"2017-06-13 11:33:04", "id": "2", "amount": "201.83", "mean": "38.17", "sd": "28.57"}
+
