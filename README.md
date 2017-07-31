@@ -69,6 +69,15 @@ If a user's social network has less than 2 purchases, we don't have enough histo
 
 If a user's social network has made 2 or more purchases, but less than `T`, we should still proceed with the calucations to determine if the purchases are anomalous.
 
+### How to calculate mean and standard deviation?
+
+For this challenge, an anomalous amount is defined as a value that exceeds `mean + (3*sd)`
+
+For simplicity, we can assume that the mean and standard deviation of the purchase amounts can be calculated based on the formulas below:
+
+<img src="./images/math.png" width="500">
+
+where N is the number of purchases and x is the amount.
 
 ### Input Data
 Ideally, the input data would come from a real-time, streaming API, but we don't want this challenge to focus on the relatively uninteresting task of connecting to an API.
